@@ -1,0 +1,360 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* Main code start here */
+.header-section{
+    width: 100%;
+    background: url("../images/Slider.png") center center no-repeat;
+    background-size: cover;
+}
+.menu{
+    width: 100%;
+}
+.menu .bg-light{
+    background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+	color: #9ca6aa !important;
+	margin: 0px 15px;
+	font-size: 15px;
+    font-weight: 701;
+    padding-bottom: 0px;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+    color: #ffc178 !important;
+    border-bottom: 2px solid #ffc178;
+}
+.menu .navbar-light .navbar-nav .active > .nav-link {
+    color: #ffc178 !important;
+    border-bottom: 2px solid #ffc178;
+}
+.menu .btn-outline-success {
+	padding: 10px 35px;
+	background: #ffffff;
+	color: #ffc178;
+	border-radius: 30px;
+    font-size: 15px;
+    border:none;
+    transition: 1s;
+}
+.menu .btn-outline-success:hover,.menu .btn-outline-success:focus{
+    background: #ffc178;
+    color: #ffffff;
+    border: 2px solid;
+}
+.header-section .banner{
+    width: 100%;
+    padding:60px 0px 170px;
+}
+.header-section .banner .banner-inner{
+    width: 100%;
+    padding: 0px 0px 150px;
+}
+.header-section .banner .banner-inner h1{
+    color:#ffc178 ;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+}
+.header-section .banner .banner-inner p{
+    color: #77858d;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.header-section .banner .banner-inner .btn-outline-success {
+    padding: 10px 35px;
+    margin-top: 10px;
+	background: #ffc178;
+	color: #ffffff;
+	border-radius: 30px;
+    font-size: 15px;
+    border:none;
+}
+.header-section .banner .banner-inner .btn-outline-success:hover, .header-section .banner .banner-inner .btn-outline-success:focus{
+    color: #ffc178;
+    background: #ffffff;
+    border: 0px;
+}
+.feature-section{
+    width: 100%;
+}
+.feature-section .title{
+    width: 100%;
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+.feature-section .title h1{
+    color:black ;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+}
+.feature-section .title p{
+    color: #77858d;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.service-inner{
+    position: relative;
+    padding: 20px 0px;
+}
+.service-inner h4{
+    position: absolute;
+    top: 336px;
+    left: 23%;
+    color: white;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.about-chairman{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+.about-chairman .inner-images{
+    width: 100%;
+}
+.about-chairman .inner-text{
+    width: 100%;
+}
+.about-chairman .inner-text h2{
+    color:black ;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    padding-bottom: 15px;
+} 
+.about-chairman .inner-text p{
+    color: #77858d;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+} 
+.about-chairman .inner-text .student{
+    width: 100%;
+    padding: 20px 0px;
+}
+.about-chairman .inner-text .student h1{
+    color: #ffc178;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+.about-chairman .inner-text .student p{
+    color: #ffc178;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.about-chairman .inner-text .courses{
+    width: 100%;
+    padding: 20px 0px;
+}
+.about-chairman .inner-text .courses h1{
+    color: #ff5f72;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+.about-chairman .inner-text .courses p{
+    color: #ff5f72;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.about-chairman .inner-text .hours{
+    width: 100%;
+    padding: 20px 0px;
+}
+.about-chairman .inner-text .hours h1{
+    color: #43cb83;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+.about-chairman .inner-text .hours p{
+    color: #43cb83;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.university{
+    width: 100%;
+    padding: 80px 0px;
+}
+.university .university-row-inner1{
+    width: 100%;
+    padding: 0px 0px 45px;
+}
+.university .university-row-inner1 h1{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+}
+.university .university-row-inner2{
+    width: 100%;
+    margin: 15px 0px;
+}
+.university .university-row-inner2 .card-body {
+    padding: 1rem;
+}
+.university .university-row-inner2 h5{
+    color:black ;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 3px;
+}
+.university .university-row-inner2 p{
+    color: #77858d;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+.university .university-row-inner2 .btn-link {
+	font-weight: 400;
+	color: #77858d;
+	text-decoration: none;
+    padding-left: 0px;
+    text-align: left;
+}
+.university .university-row-inner2:hover .card-title{
+    color: #ffc178;
+    text-decoration: underline;
+}
+.university .university-row-inner2:hover .btn-link{
+    color: #000000;
+}
+/* footer */
+.footer-section{
+    width: 100%;
+}
+.footer-section .footer-widget-top{
+    width: 100%;
+    background-color: #252c3a;
+    padding: 80px 0px;
+}
+.footer-section .footer-widget-top .inner-widget{
+    width: 100%;
+}
+.footer-section .footer-widget-top .inner-widget img{
+    padding-bottom: 30px;
+}
+.footer-section .footer-widget-top .inner-widget .p{
+    color: #78797d;
+    padding: 0px 0px 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-section .footer-widget-top .inner-widget .q{
+    color: #78797d;
+    padding: 0px 0px 60px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-section .footer-widget-top .inner-widget .line{
+    background-color: #969595;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.footer-section .footer-widget-top .inner-widget .social-icon{
+    list-style-type: none;
+    display: inline-block;
+}
+.footer-section .footer-widget-top .inner-widget .social-icon li{
+    display: inline;
+}
+.footer-section .footer-widget-top .inner-widget .social-icon li a{
+    color: #4a4a4a;
+    margin: 0px 10px 0px 0px;
+}
+.footer-section .footer-widget-top .inner-widget .social-icon li a:hover{
+    color: #0089fd;
+}
+.footer-section .footer-widget-top .inner-widget h4{
+    font-size: 19px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+.inner-widget .list-group-item {
+	position: relative;
+	display: block;
+	padding: 10px 0px;
+	background-color: transparent;
+	border: 0px;
+    color: #848486;
+    font-size: 14px;
+}
+.inner-widget .list-group-item span{
+    color: #636465;
+    font-size: 12px;
+}
+.inner-widget .list-group-item  a{
+    color: #848486;
+    font-size: 14px;
+    font-weight: 600;
+}
+.inner-widget .form{
+    width: 100%;
+}
+.inner-widget .form .form-control{
+    border-radius: 0px;
+    border: 1px solid #fff;
+    font-size: 14px;
+}
+.inner-widget .form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffffff !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.inner-widget .form .btn-primary{
+    position: absolute;
+    bottom: 7.5%;
+    right: 5%;
+    border-radius: 0px;
+    padding: 6px 23px;
+    border: 1px solid #ffc178;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffc178;
+}
+
+.footer-section .main-footer{
+    background-color: #1d232e;
+    width: 100%;
+    padding: 30px 0px 20px;
+}
+.footer-section .main-footer p{
+   color: #6b6b6b;
+}
+.footer-section .main-footer .nav-link {
+	display: block;
+	padding: .5rem 12px;
+}
+.footer-section .main-footer .nav-item a {
+	color: #6b6b6b !important;
+	text-decoration: none;
+	background-color: transparent;
+}
